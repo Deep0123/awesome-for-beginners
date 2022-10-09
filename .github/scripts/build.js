@@ -54,7 +54,8 @@ const sponsorRows = Math.ceil(sponsorList.length / 6);
 let sponsors = '';
 
 for (let i = 1; i <= sponsorRows; i++) {
-    sponsors += '<tr>';
+    sponsors += '<tr>'; 
+    // comment here
     for(let j = 0; j < 6; j++) {
         if (sponsorList.length > i*j) {
             sponsors += sponsorList[i*j];
